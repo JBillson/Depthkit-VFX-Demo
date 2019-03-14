@@ -1,4 +1,4 @@
-# Depthkit with VFX Graph
+# Depthkit-VFX-Template
 
 ## Overview
 
