@@ -2,7 +2,7 @@
 
 ## Overview
 
-    This project is a copy of Keijiro's dkvfx repo.  It serves as a template for future Depthkit-VFX projects.
+    This project is pulled from Keijiro's dkvfx repo.  It serves as a template for future Depthkit-VFX projects.
 
 ## Setting up Depthkit Video
 
