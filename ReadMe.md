@@ -1,6 +1,6 @@
 # Depthkit-VFX-Template
 
-## Overview
+# Overview
 
     This project is pulled from Keijiro's dkvfx repo.  It serves as a template for future Depthkit-VFX projects.
 
@@ -20,7 +20,7 @@ Open the `DepthkitVfxDemo` scene in `Assets/Scenes/`. Import the 3 files for the
 
 Convert the `.txt` file into a `Metadata` file by right clicking on the `.txt` and select `Depthkit/ConvertToMetadata`. You can delete the `.txt` if you wish.  
 
-## Scene Setup
+# Scene Setup
 
 ### Hap Player
 
