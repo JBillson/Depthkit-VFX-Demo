@@ -12,8 +12,6 @@ To convert the video file open a command prompt at the directory of the Depthkit
 
     ffmpeg -i yourSourceFile.mp4 -c:v hap -format hap_alpha outputName.mov
 
-![Converting Depthkit Video](ReadMeFiles/ConvertingDepthkitVideo.gif)
-
 ## Importing Depthkit Video
 
 Open the `DepthkitVfxDemo` scene in `Assets/Scenes/`. Import the 3 files for the depthkit video.  Place the *video* only in the `Assets/StreamingAssets/` directory.  Place the other two files in the `Assets/Depthkit Metadata/` directory.  
@@ -22,15 +20,11 @@ Open the `DepthkitVfxDemo` scene in `Assets/Scenes/`. Import the 3 files for the
 
 Convert the `.txt` file into a `Metadata` file by right clicking on the `.txt` and select `Depthkit/ConvertToMetadata`. You can delete the `.txt` if you wish.  
 
-![Convert .txt to Metadata](ReadMeFiles/ConvertingTextToMetadata.gif)
-
 ## Scene Setup
 
 ### Hap Player
 
 Select the `Hap Player` object in the hierarchy.  Type in the name of the video file in the `File Path` section to use that video in the VFX Graph.
-
-![Adding file path to Hap Player](ReadMeFiles/FilePathToHapPlayer.gif)
 
 You can adjust the speed of the video playback with the `Speed` variable on the `Hap Player` component.
 
