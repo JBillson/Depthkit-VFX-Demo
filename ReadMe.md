@@ -4,7 +4,7 @@
 
     This project is pulled from Keijiro's dkvfx repo.  It serves as a template for future Depthkit-VFX projects.
 
-## Setting up Depthkit Video
+### Setting up Depthkit Video
 
 We need to start by converting the Depthkit video to a hap-alpha format.  I use the `ffmpeg` library with the Windows sub-system for Linux. 
 
@@ -12,11 +12,11 @@ To convert the video file open a command prompt at the directory of the Depthkit
 
     ffmpeg -i yourSourceFile.mp4 -c:v hap -format hap_alpha outputName.mov
 
-## Importing Depthkit Video
+### Importing Depthkit Video
 
 Open the `DepthkitVfxDemo` scene in `Assets/Scenes/`. Import the 3 files for the depthkit video.  Place the *video* only in the `Assets/StreamingAssets/` directory.  Place the other two files in the `Assets/Depthkit Metadata/` directory.  
 
-## Creating the Metadata file
+### Creating the Metadata file
 
 Convert the `.txt` file into a `Metadata` file by right clicking on the `.txt` and select `Depthkit/ConvertToMetadata`. You can delete the `.txt` if you wish.  
 
